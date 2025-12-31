@@ -1,0 +1,30 @@
+
+---
+
+# 2️⃣ `.gitignore` (SAFETY FILE)
+
+📄 **`.gitignore`**
+```gitignore
+# Environment
+.env
+.env.*
+__pycache__/
+*.pyc
+
+# Conda / venv
+cognitive_assistant/
+venv/
+
+# Data (never commit user data)
+data/raw/
+data/interim/
+data/processed/
+data/embeddings/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+

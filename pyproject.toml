@@ -1,0 +1,19 @@
+[project]
+name = "cognitive_personal_assistant"
+version = "0.1.0"
+description = "A Cognitive Personal Assistant with long-term memory and interaction intelligence"
+requires-python = ">=3.10"
+
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "pydantic",
+    "python-dotenv",
+    "loguru"
+]
+
+[tool.black]
+line-length = 88
+
+[tool.ruff]
+line-length = 88
