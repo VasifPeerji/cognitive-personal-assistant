@@ -10,6 +10,7 @@ dependencies = [
     "pydantic",
     "python-dotenv",
     "loguru"
+    "langdetect"
 ]
 
 [tool.black]
